@@ -16,7 +16,7 @@ class UserTableSeeder extends Seeder
     {
         Model::unguard();
         User::insert([
-            ['name'=>'Admin', 'email'=>'admin@gmail.com', 'password'=>'$2y$10$seezxLnyzbnYgansCYWs2OcPNDwRSZ4M3oUjoxj.aPBzNOQ34jkla']//123456
+            ['name'=>'Admin', 'email'=>'admin@gmail.com', 'password'=>'$2y$12$uSu.SY1DfPxDpWohVnB8juT/tuvsouNEpVKAXUGPmfV4j0qrxJfIq']//123456
         ]);
     }
 }
